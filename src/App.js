@@ -6,6 +6,7 @@ import Players from './components/players';
 import Schedule from './components/schedule';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Standings from './components/standings';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Info/>
       <Schedule/>
       <Players/>
+      <Standings/>
       <News/>
       <Gallery />
     </div>
