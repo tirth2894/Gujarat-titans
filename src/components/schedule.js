@@ -60,7 +60,7 @@ function Schedule() {
                     </div>
 
                     <p className='text-center pt-4 px-2'>
-                        Gujarat titans won by 6 runs.
+                        GT won by 6 runs.
                     </p>
 
                     <p className='text-center text-sm my-3'>
@@ -89,7 +89,7 @@ function Schedule() {
                     </div>
 
                     <p className='text-center pt-4 px-2'>
-                        Chennai super kings won by 63 runs.
+                        CSK won by 63 runs.
                     </p>
 
                     <p className='text-center text-sm my-3'>
@@ -118,7 +118,7 @@ function Schedule() {
                     </div>
 
                     <p className='text-center pt-4 px-2'>
-                        Gujarat titans won by 7 wickets.
+                        GT won by 7 wickets.
                     </p>
 
                     <p className='text-center text-sm my-3'>
@@ -147,7 +147,7 @@ function Schedule() {
                     </div>
 
                     <p className='text-center pt-4 px-2'>
-                        Punjab Kings by 3 wickets.
+                        PBKS by 3 wickets.
                     </p>
 
                     <p className='text-center text-sm my-3'>
@@ -176,7 +176,7 @@ function Schedule() {
                     </div>
 
                     <p className='text-center pt-4 px-2'>
-                    Lucknow Super Giants won by 33 runs.
+                    LSG won by 33 runs.
                     </p>
 
                     <p className='text-center text-sm my-3'>
@@ -205,7 +205,7 @@ function Schedule() {
                     </div>
 
                     <p className='text-center pt-4 px-2'>
-                        Gujarat titans by 3 wickets.
+                        GT won by 3 wickets.
                     </p>
 
                     <p className='text-center text-sm my-3'>
@@ -234,7 +234,7 @@ function Schedule() {
                     </div>
 
                     <p className='text-center pt-4 px-2'>
-                        Delhi Capitals won by 6 wickets.
+                        DC won by 6 wickets.
                     </p>
 
                     <p className='text-center text-sm my-3'>
@@ -263,7 +263,7 @@ function Schedule() {
                     </div>
 
                     <p className='text-center pt-4 px-2'>
-                        Gujarat titans won by 3 wickets.
+                        GT won by 3 wickets.
                     </p>
 
                     <p className='text-center text-sm my-3'>
@@ -292,7 +292,7 @@ function Schedule() {
                     </div>
 
                     <p className='text-center pt-4 px-2'>
-                        Delhi Capitals won by 4 runs.
+                        DC won by 4 runs.
                     </p>
 
                     <p className='text-center text-sm my-3'>
@@ -321,7 +321,7 @@ function Schedule() {
                     </div>
 
                     <p className='text-center pt-4 px-2'>
-                        Royal Challengers Bangalore won by 9 wickets.
+                        RCB won by 9 wickets.
                     </p>
 
                     <p className='text-center text-sm my-3'>
@@ -350,7 +350,7 @@ function Schedule() {
                     </div>
 
                     <p className='text-center pt-4 px-2'>
-                        Royal Challengers Bangalore won by 4 wickets.
+                        RCB won by 4 wickets.
                     </p>
 
                     <p className='text-center text-sm my-3'>
@@ -379,7 +379,7 @@ function Schedule() {
                     </div>
 
                     <p className='text-center pt-4 px-2'>
-                        Gujarat titans by 35 runs.
+                        GT won by 35 runs.
                     </p>
 
                     <p className='text-center text-sm my-3'>
@@ -408,7 +408,7 @@ function Schedule() {
                     </div>
 
                     <p className='text-center pt-4 px-2'>
-                        Match abandoned without a ball bowled.
+                        No Result.
                     </p>
 
                     <p className='text-center text-sm my-3'>
@@ -437,7 +437,7 @@ function Schedule() {
                     </div>
 
                     <p className='text-center pt-4 px-2'>
-                        Match abandoned without a ball bowled.
+                        No Result.
                     </p>
 
                     <p className='text-center text-sm my-3'>
