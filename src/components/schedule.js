@@ -38,11 +38,11 @@ function Schedule() {
         ]
     };
     return (
-        <div className='m-5 bg-[#22426b] py-4 pb-10 px-4 rounded-2xl'>
+        <div className='m-5 bg-[#22426b] py-4 pb-10 px-4 rounded-2xl' id='matches'>
             <p className='text-center text-2xl md:text-3xl text-[#d8b859] font-semibold my-2'>Match Schedule</p>
 
             <Slider {...settings}>
-                <div className='bg-[#142740] w-96 md:p-5 px-2 py-5 rounded-2xl shadow-md shadow-[#131212] my-5 '>
+                <div className='bg-[#142740] w-96 md:p-5 px-2 py-5 rounded-2xl shadow-md shadow-[#131212] my-5 hover:scale-105 transition-transform duration-300'>
                     <div className='w-full flex items-center justify-center flex-wrap sm:flex-row flex-col my-2'>
                         <div className='flex items-center justify-evenly'>
                             <img src={gtlogo} alt="" className='h-10' />
@@ -71,7 +71,7 @@ function Schedule() {
                         Scorecard
                     </button>
                 </div>
-                <div className='bg-[#142740] w-96 md:p-5 px-2 py-5 rounded-2xl shadow-md shadow-[#131212] my-5 '>
+                <div className='bg-[#142740] w-96 md:p-5 px-2 py-5 rounded-2xl shadow-md shadow-[#131212] my-5 hover:scale-105 transition-transform duration-300'>
                     <div className='w-full flex items-center justify-center flex-wrap sm:flex-row flex-col my-2'>
                         <div className='flex items-center justify-evenly'>
                             <img src={cskLogo} alt="" className='h-10' />
@@ -93,14 +93,14 @@ function Schedule() {
                     </p>
 
                     <p className='text-center text-sm my-3'>
-                        Match 07, 26 May 2024 
+                        Match 07, 26 May 2024
                     </p>
 
                     <button className='w-full bg-[#d8b859] py-1 my-2 text-[#142740] font-semibold rounded-lg'>
                         Scorecard
                     </button>
                 </div>
-                <div className='bg-[#142740] w-96 md:p-5 px-2 py-5 rounded-2xl shadow-md shadow-[#131212] my-5 '>
+                <div className='bg-[#142740] w-96 md:p-5 px-2 py-5 rounded-2xl shadow-md shadow-[#131212] my-5 hover:scale-105 transition-transform duration-300'>
                     <div className='w-full flex items-center justify-center flex-wrap sm:flex-row flex-col my-2'>
                         <div className='flex items-center justify-evenly'>
                             <img src={srhlogo} alt="" className='h-10' />
@@ -122,14 +122,14 @@ function Schedule() {
                     </p>
 
                     <p className='text-center text-sm my-3'>
-                        Match 12, 31 Mar 2024 
+                        Match 12, 31 Mar 2024
                     </p>
 
                     <button className='w-full bg-[#d8b859] py-1 my-2 text-[#142740] font-semibold rounded-lg'>
                         Scorecard
                     </button>
                 </div>
-                <div className='bg-[#142740] w-96 md:p-5 px-2 py-5 rounded-2xl shadow-md shadow-[#131212] my-5 '>
+                <div className='bg-[#142740] w-96 md:p-5 px-2 py-5 rounded-2xl shadow-md shadow-[#131212] my-5 hover:scale-105 transition-transform duration-300'>
                     <div className='w-full flex items-center justify-center flex-wrap sm:flex-row flex-col my-2'>
                         <div className='flex items-center justify-evenly'>
                             <img src={gtlogo} alt="" className='h-10' />
@@ -151,14 +151,14 @@ function Schedule() {
                     </p>
 
                     <p className='text-center text-sm my-3'>
-                        Match 17, 04 Apr 2024 
+                        Match 17, 04 Apr 2024
                     </p>
 
                     <button className='w-full bg-[#d8b859] py-1 my-2 text-[#142740] font-semibold rounded-lg'>
                         Scorecard
                     </button>
                 </div>
-                <div className='bg-[#142740] w-96 md:p-5 px-2 py-5 rounded-2xl shadow-md shadow-[#131212] my-5 '>
+                <div className='bg-[#142740] w-96 md:p-5 px-2 py-5 rounded-2xl shadow-md shadow-[#131212] my-5 hover:scale-105 transition-transform duration-300'>
                     <div className='w-full flex items-center justify-center flex-wrap sm:flex-row flex-col my-2'>
                         <div className='flex items-center justify-evenly'>
                             <img src={lsglogo} alt="" className='h-10' />
@@ -176,18 +176,18 @@ function Schedule() {
                     </div>
 
                     <p className='text-center pt-4 px-2'>
-                    LSG won by 33 runs.
+                        LSG won by 33 runs.
                     </p>
 
                     <p className='text-center text-sm my-3'>
-                        Match 21, 07 Apr 2024 
+                        Match 21, 07 Apr 2024
                     </p>
 
                     <button className='w-full bg-[#d8b859] py-1 my-2 text-[#142740] font-semibold rounded-lg'>
                         Scorecard
                     </button>
                 </div>
-                <div className='bg-[#142740] w-96 md:p-5 px-2 py-5 rounded-2xl shadow-md shadow-[#131212] my-5 '>
+                <div className='bg-[#142740] w-96 md:p-5 px-2 py-5 rounded-2xl shadow-md shadow-[#131212] my-5 hover:scale-105 transition-transform duration-300'>
                     <div className='w-full flex items-center justify-center flex-wrap sm:flex-row flex-col my-2'>
                         <div className='flex items-center justify-evenly'>
                             <img src={rrlogo} alt="" className='h-10' />
@@ -209,14 +209,14 @@ function Schedule() {
                     </p>
 
                     <p className='text-center text-sm my-3'>
-                        Match 24, 10 Apr 2024 
+                        Match 24, 10 Apr 2024
                     </p>
 
                     <button className='w-full bg-[#d8b859] py-1 my-2 text-[#142740] font-semibold rounded-lg'>
                         Scorecard
                     </button>
                 </div>
-                <div className='bg-[#142740] w-96 md:p-5 px-2 py-5 rounded-2xl shadow-md shadow-[#131212] my-5 '>
+                <div className='bg-[#142740] w-96 md:p-5 px-2 py-5 rounded-2xl shadow-md shadow-[#131212] my-5 hover:scale-105 transition-transform duration-300'>
                     <div className='w-full flex items-center justify-center flex-wrap sm:flex-row flex-col my-2'>
                         <div className='flex items-center justify-evenly'>
                             <img src={gtlogo} alt="" className='h-10' />
@@ -238,14 +238,14 @@ function Schedule() {
                     </p>
 
                     <p className='text-center text-sm my-3'>
-                        Match 32, 17 Apr 2024 
+                        Match 32, 17 Apr 2024
                     </p>
 
                     <button className='w-full bg-[#d8b859] py-1 my-2 text-[#142740] font-semibold rounded-lg'>
                         Scorecard
                     </button>
                 </div>
-                <div className='bg-[#142740] w-96 md:p-5 px-2 py-5 rounded-2xl shadow-md shadow-[#131212] my-5 '>
+                <div className='bg-[#142740] w-96 md:p-5 px-2 py-5 rounded-2xl shadow-md shadow-[#131212] my-5 hover:scale-105 transition-transform duration-300'>
                     <div className='w-full flex items-center justify-center flex-wrap sm:flex-row flex-col my-2'>
                         <div className='flex items-center justify-evenly'>
                             <img src={pklogo} alt="" className='h-10' />
@@ -267,14 +267,14 @@ function Schedule() {
                     </p>
 
                     <p className='text-center text-sm my-3'>
-                        Match 37, 21 Apr 2024 
+                        Match 37, 21 Apr 2024
                     </p>
 
                     <button className='w-full bg-[#d8b859] py-1 my-2 text-[#142740] font-semibold rounded-lg'>
                         Scorecard
                     </button>
                 </div>
-                <div className='bg-[#142740] w-96 md:p-5 px-2 py-5 rounded-2xl shadow-md shadow-[#131212] my-5 '>
+                <div className='bg-[#142740] w-96 md:p-5 px-2 py-5 rounded-2xl shadow-md shadow-[#131212] my-5 hover:scale-105 transition-transform duration-300'>
                     <div className='w-full flex items-center justify-center flex-wrap sm:flex-row flex-col my-2'>
                         <div className='flex items-center justify-evenly'>
                             <img src={dclogo} alt="" className='h-10' />
@@ -296,14 +296,14 @@ function Schedule() {
                     </p>
 
                     <p className='text-center text-sm my-3'>
-                        Match 40, 24 Apr 2024 
+                        Match 40, 24 Apr 2024
                     </p>
 
                     <button className='w-full bg-[#d8b859] py-1 my-2 text-[#142740] font-semibold rounded-lg'>
                         Scorecard
                     </button>
                 </div>
-                <div className='bg-[#142740] w-96 md:p-5 px-2 py-5 rounded-2xl shadow-md shadow-[#131212] my-5 '>
+                <div className='bg-[#142740] w-96 md:p-5 px-2 py-5 rounded-2xl shadow-md shadow-[#131212] my-5 hover:scale-105 transition-transform duration-300'>
                     <div className='w-full flex items-center justify-center flex-wrap sm:flex-row flex-col my-2'>
                         <div className='flex items-center justify-evenly'>
                             <img src={gtlogo} alt="" className='h-10' />
@@ -325,14 +325,14 @@ function Schedule() {
                     </p>
 
                     <p className='text-center text-sm my-3'>
-                        Match 45, 28 Apr 2024 
+                        Match 45, 28 Apr 2024
                     </p>
 
                     <button className='w-full bg-[#d8b859] py-1 my-2 text-[#142740] font-semibold rounded-lg'>
                         Scorecard
                     </button>
                 </div>
-                <div className='bg-[#142740] w-96 md:p-5 px-2 py-5 rounded-2xl shadow-md shadow-[#131212] my-5 '>
+                <div className='bg-[#142740] w-96 md:p-5 px-2 py-5 rounded-2xl shadow-md shadow-[#131212] my-5 hover:scale-105 transition-transform duration-300'>
                     <div className='w-full flex items-center justify-center flex-wrap sm:flex-row flex-col my-2'>
                         <div className='flex items-center justify-evenly'>
                             <img src={gtlogo} alt="" className='h-10' />
@@ -354,14 +354,14 @@ function Schedule() {
                     </p>
 
                     <p className='text-center text-sm my-3'>
-                        Match 52, 04 May 2024 
+                        Match 52, 04 May 2024
                     </p>
 
                     <button className='w-full bg-[#d8b859] py-1 my-2 text-[#142740] font-semibold rounded-lg'>
                         Scorecard
                     </button>
                 </div>
-                <div className='bg-[#142740] w-96 md:p-5 px-2 py-5 rounded-2xl shadow-md shadow-[#131212] my-5 '>
+                <div className='bg-[#142740] w-96 md:p-5 px-2 py-5 rounded-2xl shadow-md shadow-[#131212] my-5 hover:scale-105 transition-transform duration-300'>
                     <div className='w-full flex items-center justify-center flex-wrap sm:flex-row flex-col my-2'>
                         <div className='flex items-center justify-evenly'>
                             <img src={kkrlogo} alt="" className='h-10' />
@@ -383,14 +383,14 @@ function Schedule() {
                     </p>
 
                     <p className='text-center text-sm my-3'>
-                        Match 59, 10 May 2024 
+                        Match 59, 10 May 2024
                     </p>
 
                     <button className='w-full bg-[#d8b859] py-1 my-2 text-[#142740] font-semibold rounded-lg'>
                         Scorecard
                     </button>
                 </div>
-                <div className='bg-[#142740] w-96 md:p-5 px-2 py-5 rounded-2xl shadow-md shadow-[#131212] my-5 '>
+                <div className='bg-[#142740] w-96 md:p-5 px-2 py-5 rounded-2xl shadow-md shadow-[#131212] my-5 hover:scale-105 transition-transform duration-300'>
                     <div className='w-full flex items-center justify-center flex-wrap sm:flex-row flex-col my-2'>
                         <div className='flex items-center justify-evenly'>
                             <img src={gtlogo} alt="" className='h-10' />
@@ -412,14 +412,14 @@ function Schedule() {
                     </p>
 
                     <p className='text-center text-sm my-3'>
-                        Match 63, 13 May 2024 
+                        Match 63, 13 May 2024
                     </p>
 
                     <button className='w-full bg-[#d8b859] py-1 my-2 text-[#142740] font-semibold rounded-lg'>
                         Scorecard
                     </button>
                 </div>
-                <div className='bg-[#142740] w-96 md:p-5 px-2 py-5 rounded-2xl shadow-md shadow-[#131212] my-5 '>
+                <div className='bg-[#142740] w-96 md:p-5 px-2 py-5 rounded-2xl shadow-md shadow-[#131212] my-5 hover:scale-105 transition-transform duration-300'>
                     <div className='w-full flex items-center justify-center flex-wrap sm:flex-row flex-col my-2'>
                         <div className='flex items-center justify-evenly'>
                             <img src={srhlogo} alt="" className='h-10' />
@@ -441,7 +441,7 @@ function Schedule() {
                     </p>
 
                     <p className='text-center text-sm my-3'>
-                        Match 66, 16 May 2024 
+                        Match 66, 16 May 2024
                     </p>
 
                     <button className='w-full bg-[#d8b859] py-1 my-2 text-[#142740] font-semibold rounded-lg'>

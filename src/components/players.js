@@ -24,12 +24,12 @@ function Players() {
   };
   return (
 
-    <div className='m-5 bg-[#22426b] px-4 py-4 pb-10 rounded-2xl'>
+    <div className='m-5 bg-[#22426b] px-4 py-4 pb-10 rounded-2xl' id='players'>
       <p className='text-center text-2xl md:text-3xl text-[#d8b859] font-semibold my-2 mb-4'>Players</p>
 
       <Slider {...settings}>
 
-        <div className='p-3 bg-[#142740] text-[#d8b859] rounded-2xl'>
+        <div className='p-3 bg-[#142740] text-[#d8b859] rounded-2xl '>
           <div className='flex flex-col items-center w-full rounded-lg  md:flex-row '>
             <img className="object-cover rounded-t-lg w-96 md:rounded-none md:rounded-s-lg" src={AbhinavManohar} alt="" />
             <div className="w-full  rounded-lg ">
@@ -352,7 +352,7 @@ function Players() {
               </div>
             </div>
           </div>
-        </div>       
+        </div>
 
       </Slider>
     </div>

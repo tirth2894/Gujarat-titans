@@ -17,27 +17,27 @@ function Navbar() {
             <div className={menu ? 'h-screen w-full bg-[#142740fd] p-5 fixed z-10' : 'hidden'}>
                 <IoClose onClick={toogle} color="white" className='float-right lg:hidden h-10 w-10' />
                 <ul className='text-xl font-semibold flex flex-col mt-16 items-center w-full'>
-                    <a href="" className='w-full'>
+                    <a href="#home" className='w-full'>
                         <li className='px-4 hover:text-[#d8b859] text-white mt-5  text-center py-3' onClick={toogle}>
                             Home
                         </li>
                     </a>
-                    <a href="" className='w-full'>
-                        <li className='px-4 hover:text-[#d8b859] text-white mt-5  text-center py-3' onClick={toogle}>
-                            Players
-                        </li>
-                    </a>
-                    <a href="" className='w-full'>
+                    <a href="#matches" className='w-full'>
                         <li className='px-4 hover:text-[#d8b859] text-white mt-5  text-center py-3' onClick={toogle}>
                             Matches
                         </li>
                     </a>
-                    <a href="" className='w-full'>
+                    <a href="#players" className='w-full'>
+                        <li className='px-4 hover:text-[#d8b859] text-white mt-5  text-center py-3' onClick={toogle}>
+                            Players
+                        </li>
+                    </a>
+                    <a href="#news" className='w-full'>
                         <li className='px-4 hover:text-[#d8b859] text-white mt-5  text-center py-3' onClick={toogle}>
                             News
                         </li>
                     </a>
-                    <a href="" className='w-full'>
+                    <a href="#gallery" className='w-full'>
                         <li className='px-4 hover:text-[#d8b859] text-white mt-5  text-center py-3' onClick={toogle}>
                             Gallery
                         </li>
@@ -45,24 +45,24 @@ function Navbar() {
                 </ul>
             </div>
 
-            <div className='m-0 flex justify-between items-center py-1 w-full'>
-                <img src={logo} alt="Logo" className='h-24 px-4'/>
+            <div className='m-0 flex justify-between items-center py-1 w-full' id='home'>
+                <img src={logo} alt="Logo" className='h-24 px-4' />
                 <IoMenu onClick={toogle} color="white" className='float-right lg:hidden mr-2 h-9 w-9' />
                 <ul className='lg:flex font-semibold text-xl justify-center items-center hidden p-2'>
                     <li className='px-4 hover:text-[#d8b859] text-white transition-all duration-300'>
-                        <a href="">Home</a>
+                        <a href="#home">Home</a>
                     </li>
                     <li className='px-4 hover:text-[#d8b859] text-white transition-all duration-300'>
-                        <a href="">Players</a>
+                        <a href="#matches">Matches</a>
                     </li>
                     <li className='px-4 hover:text-[#d8b859] text-white transition-all duration-300'>
-                        <a href="">Matches</a>
+                        <a href="#players">Players</a>
                     </li>
                     <li className='px-4 hover:text-[#d8b859] text-white transition-all duration-300'>
-                        <a href="">News</a>
+                        <a href="#news">News</a>
                     </li>
                     <li className='px-4 hover:text-[#d8b859] text-white transition-all duration-300'>
-                        <a href="">Gallery</a>
+                        <a href="#gallery">Gallery</a>
                     </li>
                 </ul>
             </div>
